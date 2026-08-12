@@ -39,3 +39,6 @@ commited
 
 ** git log --oneline
 this command will show us shorter log messages for every commit
+
+
+///////////////////This is useless as per me/////////////////////
