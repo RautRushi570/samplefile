@@ -40,6 +40,3 @@ commited
 
 ** git log --oneline
 this command will show us shorter log messages for every commit
-
-
-///////////////////
