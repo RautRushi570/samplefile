@@ -16,9 +16,11 @@ And if the file created on local directory we can remove the file simply by usin
 
 If we want to go back to a particular version then use the command
 ** git revert commit_ID -> this will add new commit and also revert us back to previous version
+Here the commit_ID should be that ID that you want to revert means you want to delete that commit Id
 
 If we want to go back to a particular version then use the command 
 **git reset commit id** -> THis will remove the commits after this from the logs
+Here the commit Id will be the id after which you want to delete the commits
 
 If we want to keep the changes at the backyard without reflecting them on the branch we use
 **git stash** but before that we need to move the files to the staging area
