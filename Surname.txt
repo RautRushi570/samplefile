@@ -7,20 +7,35 @@ Software Engineer at a big MNC currently working as a SDE-1.
 
 While using the git, if you have mistakenly add a file that you did not want to add in the 
 local repository/don't want to show the changes/show it as Untracked files then we can you the command
-git restore --staged filename.txt
+**git restore --staged filename.txt**
 
 
 And if the file created on local directory we can remove the file simply by using the command
-rm -rf filename.txt
+**rm -rf filename.txt**
+
+
+If we want to go back to a particular version then use the command
+** git revert commit_ID -> this will add new commit and also revert us back to previous version
 
 If we want to go back to a particular version then use the command 
-git reset commit id
+**git reset commit id** -> THis will remove the commits after this from the logs
 
 If we want to keep the changes at the backyard without reflecting them on the branch we use
 **git stash** but before that we need to move the files to the staging area
 
 and to regain the changes
-git stash pop
+**git stash pop**
 
 To clear the backyard use
-git stash clear
+**git stash clear**
+
+
+
+When we don't want to add this changes we use 
+**git checkout --filename **-> we can use this command only when we have not moved the file to the 
+staging area/This command will remove any changes from the file if the changes are not staged and not
+commited
+
+
+** git log --oneline
+this command will show us shorter log messages for every commit
