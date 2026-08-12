@@ -13,5 +13,5 @@ git restore --staged filename.txt
 And if the file created on local directory we can remove the file simply by using the command
 rm -rf filename.txt
 
-If we wan tot go back to a particular version the use the command 
+If we want to go back to a particular version then use the command 
 git reset commit id
