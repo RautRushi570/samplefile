@@ -21,3 +21,6 @@ If we want to keep the changes at the backyard without reflecting them on the br
 
 and to regain the changes
 git stash pop
+
+To clear the backyard use
+git stash clear
