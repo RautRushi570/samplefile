@@ -3,3 +3,12 @@ Sanjay
 Raut
 IT 
 Software Engineer at a big MNC currently working as a SDE-1.
+
+
+While using the git, if you have mistakenly add a file that you did not want to add in the 
+local repository/don't want to show the changes/show it as Untracked files then we can you the command
+git restore --staged filename.txt
+
+
+And if the file created on local directory we can remove the file simply by using the command
+rm -rf filename.txt
