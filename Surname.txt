@@ -34,9 +34,7 @@ To clear the backyard use
 
 
 When we don't want to add this changes we use
-**git checkout --filename **-> we can use this command only when we have not moved the file to the
-staging area/This command will remove any changes from the file if the changes are not staged and not
-commited
+**git checkout --filename **-> we can use this command only when we have not moved the file to the staging area/This command will remove any changes from the file if the changes are not staged and not commited
 
 
 ** git log --oneline
